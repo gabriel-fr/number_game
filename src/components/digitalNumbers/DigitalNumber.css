@@ -1,0 +1,147 @@
+.number_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+.numbers_display {
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+
+.left-up {
+  position: absolute;
+  right: 195px;
+  top: 190px;
+  height: 75px;
+  background-color: black;
+  width: 15px;
+  border-radius: 40px 0px 0px 40px;
+  margin: 5px;
+  clip-path: polygon(100% -10%, 100% 0%, -100% -10%, 150% 35%, 110% 80%, 0% 100%, 0% 0%);
+}
+.left-down {
+  position: absolute;
+  right: 194px;
+  top: 258px;
+  height: 75px;
+  background-color: black;
+  width: 15px;
+  border-radius: 40px 0px 0px 40px;
+  margin: 5px;
+  clip-path: polygon(100% 0%, 100% 0%, -40% 0%, 150% 28%, 100% 70%, 0% 100%, 0% 0%);
+}
+.rigth-down {
+  position: absolute;
+  right: 145px;
+  top: 262px;
+  height: 70px;
+  background-color: black;
+  width: 15px;
+  border-radius: 0px 40px 40px 0px;
+  margin: 5px;
+  clip-path: polygon(100% 0%, 160% 0%, 100% 0%, 100% 0%, 100% 100%, 100% 100%, -140% 40%);
+}
+.rigth-up {
+  position: absolute;
+  right: 145px;
+  top: 195px;
+  height: 70px;
+  background-color: black;
+  width: 15px;
+  border-radius: 0px 15px 0px 15px;
+  margin: 5px;
+  clip-path: polygon(100% 0%, 100% 0%, 100% 0%, 100% 0%, 100% 0%, 100% 100%, -130% 50%);
+}
+.midle {
+  position: absolute;
+  right: 152px;
+  top: 255px;
+  height: 15px;
+  background-color: black;
+  width: 50px;
+  border-radius: 15px 15px 15px 15px;
+  margin: 5px;
+  clip-path: polygon(50% -50%, 90% 30%, 100% 50%, 90% 70%, 50% 155%, 25% 100%, 0% 55%, 20% 15%);
+}
+
+.bottom {
+  position: absolute;
+  right: 152px;
+  top: 315px;
+  height: 15px;
+  background-color: black;
+  width: 52px;
+  margin: 5px;
+  clip-path: polygon(60% -50%, 90% 50%, 100% 90%, 130% 70%, 50% 155%, -15% 90%, 0% 115%, 20% 15%);
+}
+
+.top {
+  position: absolute;
+  right: 151px;
+  top: 195px;
+  height: 15px;
+  background-color: black;
+  width: 52px;
+  margin: 5px;
+  clip-path: polygon(60% -50%, 90% 50%, 100% 90%, 130% 70%, 50% 155%, -15% 90%, 0% 115%, 20% 15%);
+  transform: rotate(180deg);
+}
+
+.textDescription {
+  position: absolute;
+  top: 160px;
+  font-weight: bold;
+}
+
+@media (min-width: 1045px) and (max-width: 1545px) {
+  .numbers_display {
+    right: 540px;
+    top: 100px;
+  }
+
+  .textDescription {
+    top: 210px;
+    font-size: 21px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1045px) {
+  .numbers_display {
+    right: 330px;
+  }
+}
+
+@media (max-width: 800px) and (min-width: 600) {
+  .align {
+    margin: 0 !important;
+  }
+
+  .numbers_display {
+    top: 100px;
+    right: 200px;
+  }
+
+  .textDescription {
+    font-size: 25px;
+    top: 210px !important;
+  }
+}
+
+@media (max-width: 600px) and (min-width: 400) {
+  .numbers_display {
+    right: 5% !important;
+  }
+
+  .number-position {
+    top: 100px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .number-position {
+    top: 5px !important;
+  }
+}
