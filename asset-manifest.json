@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "./static/css/main.64691183.css",
+    "main.js": "./static/js/main.1cb9e599.js",
+    "static/media/Montserrat-Bold.ttf": "./static/media/Montserrat-Bold.3faa3eef13649db02044.ttf",
+    "index.html": "./index.html",
+    "main.64691183.css.map": "./static/css/main.64691183.css.map",
+    "main.1cb9e599.js.map": "./static/js/main.1cb9e599.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64691183.css",
+    "static/js/main.1cb9e599.js"
+  ]
+}
