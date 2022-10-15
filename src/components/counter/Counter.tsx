@@ -1,4 +1,4 @@
-import { SyntheticEvent, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import DigitalNumbers from "../digitalNumbers/DigitalNumber";
 import "./Counter.css";
 

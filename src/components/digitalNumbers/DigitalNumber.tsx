@@ -121,6 +121,7 @@ const DigitalNumbers = ({ number, textDescription, textColor }: IDigitalNumber) 
 
   useEffect(() => {
     verifyNumberLength();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [number]);
 
   return (
