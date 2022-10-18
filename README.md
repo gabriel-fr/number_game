@@ -13,7 +13,7 @@
   Projeto de um jogo de adivinhar o número. 
   
   Um número aleatório é recebido através da API e após isso se inicia o jogo na tentativa de tentar adinhar o valor. 
-  Para gerar o número em display não foi usado nenhuma fonte ou biblioteca esterna, foi totalmente desenvolvido do zero com componentes HTML e CSS. 
+  Para gerar o número em display não foi usado nenhuma fonte ou biblioteca externa, foi totalmente desenvolvido do zero com componentes HTML e CSS. 
 
 </p>
 
