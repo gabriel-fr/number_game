@@ -1,4 +1,4 @@
-<h1>Number Game</h1>
+ <img src="./src/utils/images/Number Game-banner.png"/>
 
 <div align="center">
   <div>Projeto desenvolvido</div>
@@ -18,6 +18,7 @@
   
   É possível acessar e testar o jogo através desse link.
   <a href="https://gabriel-fr.github.io/number_game/" target="_blank"> 
+    <br/>
     :point_right: Teste Aqui :point_left:
   </a>
 </p>
