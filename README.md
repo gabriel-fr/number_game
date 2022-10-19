@@ -17,7 +17,9 @@
   
   
   É possível acessar e testar o jogo através desse link.
-  <a href="https://gabriel-fr.github.io/number_game/" target="_blank"> Teste Aqui </a>
+  <a href="https://gabriel-fr.github.io/number_game/" target="_blank"> 
+    :point_right: Teste Aqui :point_left:
+  </a>
 </p>
 
 ## Tecnologias utilizadas
