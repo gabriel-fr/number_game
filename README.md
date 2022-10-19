@@ -1,8 +1,6 @@
  <img src="./src/utils/images/Number Game-banner.png"/>
 
 <div align="center">
-  <div>Projeto desenvolvido</div>
-  </br>
   <img src="./src/utils/images/giphy (1).gif"/>
 </div>
 
