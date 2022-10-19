@@ -4,6 +4,7 @@
   <div>Projeto desenvolvido</div>
   </br>
   <img src="http://img.shields.io/static/v1?label=STATUS&message=TESTES%20&color=GREEN&style=for-the-badge"/>
+  <img src="./src/utils/images/giphy (1).gif"/>
 </div>
 
 <h2>
